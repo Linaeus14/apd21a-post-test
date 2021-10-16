@@ -2,5 +2,5 @@
 Repositories pengumpulan apd21a
 
 Nama  : Tito Darmawan
-NIM   : 2109106042
-Prodi : Informatika A
+\nNIM   : 2109106042
+\nProdi : Informatika A
