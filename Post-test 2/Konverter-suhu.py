@@ -160,7 +160,7 @@ while ula != "Berhenti" and ula != "berhenti":
   |          -----------------------------
   | Masukan suhu Reamur yang ingin di konversi (Input angka) : """
          ))
-        konsuhu = nsuhu - 273.15
+        konsuhu = nsuhu / 0.8
         print(
          f"""  | Hasil koversi {nsuhu} derajat R ke Celcius = {konsuhu} derajat C"""
         )
@@ -184,7 +184,7 @@ while ula != "Berhenti" and ula != "berhenti":
                     nsuhu = float(input(
                     "  |\n  | Masukan suhu Reamur yang ingin di konversi (Input angka) : "
                     ))
-                    konsuhu = nsuhu - 273.15
+                    konsuhu = nsuhu / 0.8
                     print(
                     f"""  | Hasil koversi {nsuhu} derajat R ke Celcius = {konsuhu} derajat C"""
                     )
