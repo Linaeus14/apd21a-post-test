@@ -162,7 +162,7 @@ while ula != "Berhenti" and ula != "berhenti":
          ))
         konsuhu = nsuhu / 0.8
         print(
-         f"""  | Hasil koversi {nsuhu} derajat R ke Celcius = {konsuhu} derajat C"""
+         f"""  | Hasil koversi {nsuhu} derajat Re ke Celcius = {konsuhu} derajat C"""
         )
 
         while ula != "T" and ula != "t" and ula != "Berhenti" and ula != "berhenti": 
@@ -186,7 +186,7 @@ while ula != "Berhenti" and ula != "berhenti":
                     ))
                     konsuhu = nsuhu / 0.8
                     print(
-                    f"""  | Hasil koversi {nsuhu} derajat R ke Celcius = {konsuhu} derajat C"""
+                    f"""  | Hasil koversi {nsuhu} derajat Re ke Celcius = {konsuhu} derajat C"""
                     )
                     ula = str(input(
                      "  |"
