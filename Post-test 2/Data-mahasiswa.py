@@ -163,4 +163,3 @@ while ula != "Akhiri" and ula != "akhiri":
             "\nBerat           : "+kamuS_daftaR[f"berat{counter}"],
             "\nJenis Kelamin   : "+kamuS_daftaR[f"jeniskelamin{counter}"]
             )
-
