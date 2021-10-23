@@ -51,7 +51,7 @@ while ula != "Berhenti" and ula != "berhenti":
          "|"
         )
         menu1inp = str(input(
-         "|" 
+         "|_|_____________________________________________________________________" 
          "\n| [Pilih salah satu (masukan \"L\" untuk menunujukan list konversi lagi): "   
         ))
 
@@ -106,6 +106,8 @@ while ula != "Berhenti" and ula != "berhenti":
                      "  |"
                      "\n  | Ingin menghitung lagi (Y/T) ? \n  | [Masukan \"Berhenti\" untuk menghentikan semua] \n  | [masukan \"T\" untuk kembali]: "
                     ))
+        if ula == "Y" or ula == "y" or ula == "T" or ula == "t":
+            ula = ""
     
     if menu1inp == "2":
         nsuhu = float(input(
@@ -147,7 +149,9 @@ while ula != "Berhenti" and ula != "berhenti":
                      "  |"
                      "\n  | Ingin menghitung lagi (Y/T) ? \n  | [Masukan \"Berhenti\" untuk menghentikan semua] \n  | [masukan \"T\" untuk kembali]: "
                     ))
-                
+        if ula == "Y" or ula == "y" or ula == "T" or ula == "t":
+            ula = ""
+        
     if menu1inp == "3":
         nsuhu = float(input(
          """|_|_____________________________________________________________________
@@ -188,3 +192,5 @@ while ula != "Berhenti" and ula != "berhenti":
                      "  |"
                      "\n  | Ingin menghitung lagi (Y/T) ? \n  | [Masukan \"Berhenti\" untuk menghentikan semua] \n  | [masukan \"T\" untuk kembali]: "
                     ))
+        if ula == "Y" or ula == "y" or ula == "T" or ula == "t":
+            ula = ""
