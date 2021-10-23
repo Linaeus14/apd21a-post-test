@@ -7,5 +7,5 @@ NIM   : 2109106042 ||
 Prodi : Informatika A
 
 # branch
-Main    : Judul dan Identitas
+Main    : Judul dan Identitas ||
 Master  : Tempat pengumpulan tugas
