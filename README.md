@@ -6,6 +6,6 @@ Nama  : Tito Darmawan ||
 NIM   : 2109106042 ||
 Prodi : Informatika A
 
-# branch
+# branch list
 Main    : Judul dan Identitas ||
 Master  : Tempat pengumpulan tugas
