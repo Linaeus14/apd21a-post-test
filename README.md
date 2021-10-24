@@ -1,5 +1,5 @@
 # apd21a-post-test
-Repositorie pengumpulan apd21a
+Repository pengumpulan apd21a
 
 # identitas
 Nama  : Tito Darmawan ||
