@@ -14,6 +14,7 @@ faillog = 0
 loginsts = False
 
 while faillog != 3:
+    loginsts = False
     print(
     """
     =======================
