@@ -314,13 +314,13 @@ Pengaturan Menu
             menu[2][edmenu-1] = input(
              ""
              f"\n {menu[2][edmenu-1]}"
-             "\n Ubah nama makanan menjadi"
+             "\n Ubah nama minuman menjadi"
              "\n> "
             )
 
             menu[3][edmenu-1] = input(
              ""
              f"\n {menu[3][edmenu-1]}"
-             "\n Ubah harga makanan menjadi"
+             "\n Ubah harga minuman menjadi"
              "\n> "
             )
