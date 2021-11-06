@@ -44,7 +44,7 @@ for x in range(len(menu[0])):
     )
 print(
     ""
-    "\nMainuman"
+    "\nMinuman"
 )
 z = -1
 for x in range(len(menu[2])):
