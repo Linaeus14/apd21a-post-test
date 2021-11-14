@@ -222,38 +222,50 @@ Pengaturan Menu
             salahinp(menu2, 1)
 
         if menu2 == 1:
-            hapmenu = ""
-            while not(type(hapmenu) == int):
-                hapmenu = input(
-                ""
-                "\n Pilih makanan yang ingin di hapus"
-                "\n (masukan angka urut saja, misal \"1\")"
-                "\n> "
-                )
-                try:
-                    hapmenu = int(hapmenu)
-                except ValueError:
+            hapmenu = len(menu[ma]) + 1
+            while hapmenu > len(menu[ma]):
+                hapmenu = ""
+                while not(type(hapmenu) == int):
+                    hapmenu = input(
+                    ""
+                    "\n Pilih makanan yang ingin di hapus"
+                    "\n (masukan angka urut saja, misal \"1\")"
+                    "\n> "
+                    )
+                    try:
+                        hapmenu = int(hapmenu)
+                    except ValueError:
+                        print(
+                            "input bukan angka, coba lagi!"
+                        )
+                if hapmenu > len(menu[ma]):
                     print(
-                        "input bukan angka, coba lagi!"
+                     "Tidak ada menu dengan nomor urut tersebut, silahkan coba lagi!"
                     )
             #menggunakan del dan pop untuk menghapus list
             del menu[ma][hapmenu-1]
             menu[hama].pop(hapmenu-1)
 
         if menu2 == 2:
-            hapmenu = ""
-            while not(type(hapmenu) == int):
-                hapmenu = input(
-                ""
-                "\n Pilih minuman yang ingin di hapus"
-                "\n (masukan angka urut saja, misal \"1\")"
-                "\n> "
-                )
-                try:
-                    hapmenu = int(hapmenu)
-                except ValueError:
+            hapmenu = len(menu[mi]) + 1
+            while hapmenu > len(menu[mi]):
+                hapmenu = ""
+                while not(type(hapmenu) == int):
+                    hapmenu = input(
+                    ""
+                    "\n Pilih minuman yang ingin di hapus"
+                    "\n (masukan angka urut saja, misal \"1\")"
+                    "\n> "
+                    )
+                    try:
+                        hapmenu = int(hapmenu)
+                    except ValueError:
+                        print(
+                            "input bukan angka, coba lagi!"
+                        )
+                if hapmenu > len(menu[mi]):
                     print(
-                        "input bukan angka, coba lagi!"
+                     "Tidak ada menu dengan nomor urut tersebut, silahkan coba lagi!"
                     )
             #menggunakan del dan pop untuk menghapus list
             del menu[mi][hapmenu-1]
@@ -278,19 +290,25 @@ Pengaturan Menu
             salahinp(menu2, 1)
         
         if menu2 == 1:
-            edmenu = ""
-            while not(type(edmenu) == int):
-                edmenu = input(
-                ""
-                "\n Pilih makanan yang ingin di edit"
-                "\n (masukan angka urut saja, misal \"1\")"
-                "\n> "
-                )
-                try:
-                    edmenu = int(edmenu)
-                except ValueError:
+            edmenu = len(menu[ma]) + 1
+            while edmenu > len(menu[ma]):
+                edmenu = ""
+                while not(type(edmenu) == int):
+                    edmenu = input(
+                    ""
+                    "\n Pilih makanan yang ingin di edit"
+                    "\n (masukan angka urut saja, misal \"1\")"
+                    "\n> "
+                    )
+                    try:
+                        edmenu = int(edmenu)
+                    except ValueError:
+                        print(
+                            "input bukan angka, coba lagi!"
+                        )
+                if edmenu > len(menu[ma]):
                     print(
-                        "input bukan angka, coba lagi!"
+                     "Tidak ada menu dengan nomor urut tersebut, silahkan coba lagi!"
                     )
             
             menu[ma][edmenu-1] = input(
@@ -308,21 +326,27 @@ Pengaturan Menu
             )
 
         if menu2 == 2:
-            edmenu = ""
-            while not(type(edmenu) == int):
-                edmenu = input(
-                ""
-                "\n Pilih minuman yang ingin di edit"
-                "\n (masukan angka urut saja, misal \"1\")"
-                "\n> "
-                )
-                try:
-                    edmenu = int(edmenu)
-                except ValueError:
-                    print(
-                        "input bukan angka, coba lagi!"
+            edmenu = len(menu[ma]) + 1
+            while edmenu > len(menu[ma]):
+                edmenu = ""
+                while not(type(edmenu) == int):
+                    edmenu = input(
+                    ""
+                    "\n Pilih minuman yang ingin di edit"
+                    "\n (masukan angka urut saja, misal \"1\")"
+                    "\n> "
                     )
-            
+                    try:
+                        edmenu = int(edmenu)
+                    except ValueError:
+                        print(
+                            "input bukan angka, coba lagi!"
+                        )
+                if edmenu > len(menu[ma]):
+                    print(
+                     "Tidak ada menu dengan nomor urut tersebut, silahkan coba lagi!"
+                    )
+                    
             menu[mi][edmenu-1] = input(
              ""
              f"\n {menu[mi][edmenu-1]}"
